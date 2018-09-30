@@ -37,7 +37,7 @@ SDX="$1"
 ARCH_HOSTNAME="$2"
 ARCH_USERNAME="$3"
 MNT="`mktemp -td mnt_XXX`"
-PACKAGES="base base-devel intel-ucode sudo wpa_supplicant dialog links bash-completion vim xf86-video-intel xorg-server xfce4 xfce4-whiskermenu-plugin geany firefox ttf-dejavu"
+PACKAGES="base base-devel intel-ucode wpa_supplicant dialog links bash-completion vim xf86-video-intel xorg-server xfce4 xfce4-whiskermenu-plugin geany firefox ttf-dejavu"
 
 
 # Print setup and ask for final confirmation
