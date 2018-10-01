@@ -51,5 +51,8 @@ set hlsearch
 filetype plugin on
 EOF
 
+git config --global user.name "Michal Krajnansky"
+git config --global user.email "michal.krajnansky@gmail.com"
+
 # clear history ?
 
