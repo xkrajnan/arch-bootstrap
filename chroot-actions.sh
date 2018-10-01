@@ -40,7 +40,7 @@ sed -i.orig '/%wheel ALL=(ALL) ALL/s/^# //' /etc/sudoers
 
 cat <<- EOF >> /etc/vimrc
 
-# xkrajnan
+" xkrajnan
 set mouse=""
 set tabstop=4
 set autoindent

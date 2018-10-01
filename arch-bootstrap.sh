@@ -46,7 +46,7 @@ parted ${SDX} print
 cat <<- EOF
 	New system will be installed at: ${SDX} (check above)
 	hostname:	${ARCH_HOSTNAME}
-	username:	${ARCH_UESRNAME}
+	username:	${ARCH_USERNAME}
 	packages:	${PACKAGES}
 	mountpoint:	${MNT}
 
@@ -78,6 +78,7 @@ pacstrap -ciM ${MNT} ${PACKAGES}
 genfstab -U ${MNT} >> ${MNT}/etc/fstab
 
 
+export SDX
 export ARCH_USERNAME
 export ARCH_HOSTNAME
 export ARCH_PASSWD
