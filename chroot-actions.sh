@@ -2,6 +2,7 @@
 
 # Initialize timezone
 ln -sf /usr/share/zoneinfo/Europe/Prague /etc/localtime
+hwclock --systohc
 
 # Initialize charsets
 sed -i.orig '/#en_US.UTF-8\|#cs_CZ.UTF-8/s/^#//' /etc/locale.gen
