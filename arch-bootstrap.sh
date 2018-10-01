@@ -86,7 +86,7 @@ arch-chroot ${MNT} bash -x < chroot-actions.sh
 
 
 # Copy this script to the new installation
-cp "$0" -t ${MNT}/root
+cp `ls` -t ${MNT}/root
 
 # Unmount partitions
 umount -fR ${SDX}?
