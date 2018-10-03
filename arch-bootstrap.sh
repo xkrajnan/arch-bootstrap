@@ -37,7 +37,7 @@ SDX="$1"
 ARCH_HOSTNAME="$2"
 ARCH_USERNAME="$3"
 MNT="`mktemp -td mnt_XXX`"
-PACKAGES="base base-devel intel-ucode arch-install-scripts wpa_supplicant dialog links bash-completion vim xf86-video-intel xorg-server xfce4 xfce4-whiskermenu-plugin geany firefox ttf-dejavu openssh git subversion wget openvpn eclipse-java"
+PACKAGES="base base-devel intel-ucode arch-install-scripts wpa_supplicant dialog links bash-completion vim xf86-video-intel xorg-server xfce4 xfce4-whiskermenu-plugin geany evince firefox ttf-dejavu openssh sshpass git subversion wget openvpn eclipse-java pulseaudio-alsa xfce4-pulseaudio-plugin lightdm-gtk-greeter"
 
 
 # Print setup and ask for final confirmation
